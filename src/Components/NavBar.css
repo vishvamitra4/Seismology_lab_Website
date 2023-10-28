@@ -1,0 +1,41 @@
+/* NavBar.css */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo > li{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+li :hover{
+    color: black
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Add additional CSS as needed */

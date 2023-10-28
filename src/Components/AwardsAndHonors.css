@@ -1,0 +1,87 @@
+.awards-container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.awards-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.award-item {
+    flex-basis: calc(33.33% - 20px);
+    /* Three items per row with some spacing */
+    margin: 10px;
+}
+
+.award-card {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 150%;
+    /* Aspect ratio for the card */
+    perspective: 1000px;
+}
+
+.award-front,
+.award-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 0.5s;
+    backface-visibility: hidden;
+}
+
+.award-front {
+    transform: rotateY(0deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.award-back {
+    transform: rotateY(180deg);
+    background-color: #1b1a1a;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.award-card:hover .award-front {
+    transform: rotateY(-180deg);
+}
+
+.award-card:hover .award-back {
+    transform: rotateY(0deg);
+}
+
+.award-image {
+    width: 100%;
+}
+
+.award-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.award-description {
+    font-size: 20px;
+    margin: 8px 0;
+    color: white;
+}

@@ -1,0 +1,60 @@
+/* WelcomePage.css */
+.welcome-page {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: whitesmoke;
+
+}
+
+.side-text {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.side-text h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.side-images {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image p {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width : 500px)
+{
+    .welcome-page{
+        padding: 10px;
+    }
+    .image-grid{
+        gap: 3px;
+    }
+    .side-text{
+        padding: 5px;
+    }
+
+}

@@ -1,0 +1,33 @@
+.publication-container {
+    width: 60%;
+    margin: 40px auto;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.publication-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style:lower-roman;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.publication-item {
+    margin-top: 4%;
+    border-bottom: 1px solid black;
+    padding-bottom: 1%;
+}
+
+.publication-item a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.publication-item a:hover {
+    text-decoration: underline;
+}

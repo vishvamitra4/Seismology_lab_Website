@@ -1,0 +1,31 @@
+.table-container {
+    max-width:90%;
+    margin: 40px auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td.completed {
+    background-color: #7ED321;
+    color: #fff;
+  }
+  
+  td.ongoing {
+    background-color: #F7B500;
+    color: #fff;
+  }
+  

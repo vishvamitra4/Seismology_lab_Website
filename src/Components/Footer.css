@@ -1,0 +1,35 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+.institute-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.institute-logo {
+    width: 50px;
+    /* Adjust the width as needed */
+    height: 50px;
+    /* Adjust the height as needed */
+    margin-right: 10px;
+}
+
+.institute-name {
+    font-size: 1.2rem;
+}
+
+.copyright {
+    font-size: 0.9rem;
+}
+
+/* Additional styling, such as text color, fonts, margins, etc., can be customized as per your design. */

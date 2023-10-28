@@ -1,0 +1,69 @@
+/* lab-member.css */
+.lab-member-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.lab-member {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 19px 1px #588ed1;
+}
+.lab-member:hover{
+    box-shadow: 19px 1px #0574fc;
+}
+
+.image-container {
+    width: 30%;
+    text-align: center;
+}
+
+.info-container {
+    width: 70%;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.member-image {
+    width: 80%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.member-info h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.member-info p {
+    font-size: 1rem;
+}
+
+.position {
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 7px 0 7px 0;
+}
+
+.contact p {
+    font-weight: normal;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    .lab-member-container {
+      width: 95%;
+    }
+    .member-image{
+        width: 100%;
+    }
+  }
